@@ -1,0 +1,14 @@
+<h2>Novo contato</h2>
+<form [formGroup]="contatoForm" (ngSubmit)="onSubmit()">
+    <label for="firstName">Informe Nome</label>
+    <input id="firstName" type="text" formControlName="firstName">
+
+    <label for="lastName">Informe Nome</label>
+    <input id="lastName" type="text" formControlName="lastName">
+
+    <label for="email">Informe E-mail</label>
+    <input id="email" type="text" formControlName="email">
+
+    <button>Salvar</button>
+</form>
+
